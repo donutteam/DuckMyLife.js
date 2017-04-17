@@ -1,7 +1,7 @@
 # DuckMyLife.js
 A PJAX solution that is simple, so you don't have to **d**ucking hate your life.
 
-# Installation
+# Client-side Installation
 We do not recommend hacking this into an existing site, because it requires you to take a little different route than usual. We gotcha though fam.
 
 ## 1. Reference the library.
@@ -18,7 +18,6 @@ DuckMyLife.AssociateContext("Body", "dml-context"); // (ContextName, ClassName)
 DuckMyLife.AssociateContext("Navbar", "dt-nav");
 DuckMyLife.AssociateContext("Footer", "footer");
 ```
-
 ## 3. That's about it, client-side.
 Yeah, that's really it.
 
@@ -30,3 +29,6 @@ document.addEventListener("DMLPageLoadStarted", NProgress.start);
 document.addEventListener("DMLResourceLoaded", NProgress.inc);
 document.addEventListener("DMLPageLoaded", NProgress.done);
 ```
+
+# Server-side Installation
+coming soon

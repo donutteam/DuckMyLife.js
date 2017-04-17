@@ -26,7 +26,7 @@ Yeah, that's really it.
 
 We use [NProgress](http://ricostacruz.com/nprogress/) to show the user that something is happening:
 ```js
-		document.addEventListener("DMLPageLoadStarted", NProgress.start);
-		document.addEventListener("DMLResourceLoaded", NProgress.inc);
-		document.addEventListener("DMLPageLoaded", NProgress.done);
+document.addEventListener("DMLPageLoadStarted", NProgress.start);
+document.addEventListener("DMLResourceLoaded", NProgress.inc);
+document.addEventListener("DMLPageLoaded", NProgress.done);
 ```
